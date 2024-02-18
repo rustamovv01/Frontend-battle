@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 33px 140px;
+    background: #490404;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+    color: #8DFD1B;
+}
+
+nav {
+    gap: 40px;
+    display: flex;
+    margin-right: 600px;
+}
+
+header i {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+header .icons {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero {
+    padding: 100.38px 142.47px;
+    background-color: #000;
+}
+
+#hero .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero .content h1 {
+    color: white;
+    font-size: 61px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero .content p {
+    width: 337.66px;
+    color: #ffff;
+    margin-top: 43px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero .content button {
+    width: 203.59px;
+    height: 60px;
+    color: #000000;
+    margin-top: 115px;
+    border: 1px solid #8DFD1B;
+    background: #8DFD1B;
+}
+
+#hero .content button:active {
+    color: #8DFD1B;
+    background-color: transparent;
+}
+
+#roadmap {
+    padding: 230px 0;
+    background: #000000;
+}
+
+#roadmap .content h2 {
+    color: #FFFFFF;
+    margin: 0 auto;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+#roadmap {
+    background-image: url(./images/bg-img2.png);
+    background-repeat: no-repeat;
+}
+
+#roadmap .cards {
+    gap: 142px;
+    display: flex;
+    margin-top: 102px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#roadmap .card {
+    width: 539px;
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #8DFD1B;
+    background-color: rgba(128, 128, 128, 0.249);
+}
+
+#roadmap .header {
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #8DFD1B;
+}
+
+#roadmap .header p {
+    width: 50px;
+    height: 50px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    background-color: #8DFD1B;
+    font-family: 'Roboto', sans-serif;
+}
+
+#roadmap .header h3 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+#roadmap .content {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+#roadmap .text p {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#roadmap .header-text {
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #8DFD1B;
+}
+
+#roadmap .header-text p {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #8DFD1B;
+    border: 1px solid #8DFD1B;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#roadmap .header-text h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
